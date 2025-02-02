@@ -33,6 +33,7 @@ git clone https://github.com/caaiobomfim/docker-nginx-node-mysql.git
 Run the following command to build and start the containers:
 
 ```sh
+cd docker-nginx-node-mysql
 docker-compose up -d --build
 ```
 
