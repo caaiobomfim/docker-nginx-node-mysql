@@ -1,0 +1,27 @@
+# Dependências do Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+log/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Docker
+docker/mysql/
+docker/nginx/nginx.conf.backup
+docker-compose.override.yml
+
+# Banco de dados e volumes do MySQL
+mysql/
+*.sql
+*.db
+
+# Arquivos de ambiente (credenciais)
+.env
